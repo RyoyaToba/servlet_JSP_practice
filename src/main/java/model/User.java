@@ -6,15 +6,9 @@ public class User implements Serializable{
 	
 	
 	private String id;
-	public User() {}
-	public User(String id, String name, String pass) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.pass = pass;
-	}
 	private String name;
 	private String pass;
+	
 	public String getId() {
 		return id;
 	}
@@ -31,6 +25,14 @@ public class User implements Serializable{
 		return pass;
 	}
 	public void setPass(String pass) {
+		this.pass = pass;
+	}
+	
+	public User() {}
+	public User(String id, String name, String pass) {
+		super();
+		this.id = id;
+		this.name = name;
 		this.pass = pass;
 	}
 }
