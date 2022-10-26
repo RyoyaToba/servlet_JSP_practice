@@ -7,10 +7,11 @@
 <title>ユーザー登録</title>
 </head>
 <body>
-<form action="/example3/RegisterUser" method="post"></form>
+<form action="/example3/RegisterUser" method="post">
 ログインID：<input type="text" name="id"><br>
 パスワード：<input type="password" name="pass"><br>
 名前：<input type="text" name="name"><br>
 <input type="submit" value="確認">
+</form>
 </body>
 </html>
