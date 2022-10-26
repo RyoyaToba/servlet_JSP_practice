@@ -3,7 +3,6 @@ package model;
 public class HealthCheckLogic {
 
 	public void execute(Health health) {
-		
 		double weight = health.getWeight();
 		double height = health.getHeight();
 		double bmi = weight / (height / 100.0 * height / 100.0);
@@ -17,5 +16,6 @@ public class HealthCheckLogic {
 		} else {
 			bodyType = "肥満";
 		}
+		health.setBodyType(bodyType);
 	}
 }

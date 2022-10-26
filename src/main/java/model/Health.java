@@ -1,6 +1,8 @@
 package model;
 
-public class Health {
+import java.io.Serializable;
+
+public class Health implements Serializable{
 	
 	private Double height;
 	private Double weight;
