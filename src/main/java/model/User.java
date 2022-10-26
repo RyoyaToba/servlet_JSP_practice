@@ -6,6 +6,13 @@ public class User implements Serializable{
 	
 	
 	private String id;
+	public User() {}
+	public User(String id, String name, String pass) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.pass = pass;
+	}
 	private String name;
 	private String pass;
 	public String getId() {
