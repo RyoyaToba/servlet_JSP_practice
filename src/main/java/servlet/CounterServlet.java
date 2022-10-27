@@ -18,19 +18,18 @@ import javax.servlet.http.HttpServletResponse;
 public class CounterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    
 	/**
 	 * @see Servlet#init(ServletConfig)
 	 */
-	public void init(ServletConfig config) throws ServletException {
-		super.init(config);
-		
-		Integer count = 0;
-		ServletContext application = config.getServletContext();
-		application.setAttribute("count", count);
-		
-		System.out.println("init()がじっこうされました");
-	}
+//	public void init(ServletConfig config) throws ServletException {
+//		super.init(config);
+//		
+//		Integer count = 0;
+//		ServletContext application = config.getServletContext();
+//		application.setAttribute("count", count);
+//		
+//		System.out.println("init()がじっこうされました");
+//	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
