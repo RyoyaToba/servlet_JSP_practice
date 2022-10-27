@@ -15,5 +15,6 @@
 女<input type="radio" name="gender" value="1">
 <input type="submit" value="登録">
 </form>
+<jsp:include page="/footer.jsp"></jsp:include>
 </body>
 </html>
